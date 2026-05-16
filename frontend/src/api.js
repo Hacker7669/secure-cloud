@@ -2,7 +2,7 @@
 // api.js — Shared API client primitives
 // =============================================================================
 
-const DEFAULT_BASE_URL = 'http://127.0.0.1:5000/api';
+const DEFAULT_BASE_URL = 'https://secure-cloud-api-c3z5.onrender.com/api';
 
 const fromEnv = (process.env.REACT_APP_API_URL || '').trim();
 export const API_BASE_URL = (fromEnv || DEFAULT_BASE_URL).replace(/\/+$/, '');
