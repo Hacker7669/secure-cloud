@@ -38,8 +38,11 @@ class Config:
     CORS_ORIGINS = _parse_csv_env(
         "CORS_ORIGINS",
         [
-            "http://127.0.0.1:3000",
-            "http://localhost:3000",
+           [
+         "http://127.0.0.1:3000",
+         "http://localhost:3000",
+         "https://secure-cloud.vercel.app",
+        ]
         ],
     )
 
